@@ -25,7 +25,7 @@ public class RegistrationIntentService extends IntentService implements PushCons
 
         try {
             InstanceID instanceID = InstanceID.getInstance(this);
-            String senderID = sharedPreferences.getString(SENDER_ID, "");
+            String senderID = sharedPreferences.getString(SENDER_ID, "450314287423");
             String token = instanceID.getToken(senderID,
                     GoogleCloudMessaging.INSTANCE_ID_SCOPE, null);
             PushPlugin.setRegistrationID(token);
