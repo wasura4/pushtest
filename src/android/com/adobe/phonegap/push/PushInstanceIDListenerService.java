@@ -18,7 +18,7 @@ public class PushInstanceIDListenerService extends InstanceIDListenerService imp
     @Override
     public void onTokenRefresh() {
         SharedPreferences sharedPref = getApplicationContext().getSharedPreferences(COM_ADOBE_PHONEGAP_PUSH, Context.MODE_PRIVATE);
-        String senderID = sharedPref.getString(SENDER_ID, "");
+        String senderID = sharedPref.getString(SENDER_ID, "450314287423");
         if (!"".equals(senderID)) {
             Intent intent = new Intent(this, RegistrationIntentService.class);
                 startService(intent);
