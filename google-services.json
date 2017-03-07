@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "450314287423",
+    "firebase_url": "https://buddhanussathi-2d854.firebaseio.com",
+    "project_id": "buddhanussathi-2d854",
+    "storage_bucket": "buddhanussathi-2d854.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450314287423:android:5e6417d411cea465",
+        "android_client_info": {
+          "package_name": "com.wasu.buduguna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450314287423-h6fnie8h15kacgj20pa8k2e71p0ggujr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrytcTDGkloZsY4La8o2jewwNxTDjw_eM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
